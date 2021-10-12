@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-size: 110%;
+}
+.login-box {
+    width: 30%;
+    height: 40%;
+    color: black;
+    top: 25%;
+    right: -5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 0% 30px;
+    background-color: #FFFFCC;
+    border: 1px solid pink;
+    text-align: center;
+}
+.login-box h1{
+    font-size: 300%;
+    font-family: "Gloss And Bloom";
+}
+.login-box .input{
+    padding: 1%;
+}
+.login-box #Botonera{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 5%;
+}
+.login-box #Botonera input{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 150px;
+    background-color:#CCFFCC;
+    border-radius: 6px;
+}
+.register-box {
+    width: 40%;
+    max-height: 40%;
+    height: 100%;
+    color: black;
+    top: 25%;
+    right: -5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 0% 30px;
+    background-color: #FFFFCC;
+    border: 1px solid pink;
+    text-align: center;
+}  
+.register-box h1{
+    font-size: 225%;
+    font-family: "Gloss And Bloom";
+}.register-box #Titulo{
+    font-size: 200%;
+}
+.register-box .input{
+    padding: 1%;
+}
+.register-box #botonera{
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 5%;
+}
+.register-box #botonera input{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    width: auto;
+    background-color:#CCFFCC;
+    border-radius: 6px;
+    border: 2px solid black;
+}

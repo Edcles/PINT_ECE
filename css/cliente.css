@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bgdelreves.jpg) no-repeat center top;
+    background-size: 110%;
+}
+#facturas h1{
+    text-align: center;
+    max-width: 600px;
+    font-size: 300%;
+    font-family: "Gloss And Bloom";
+}
+#Pagar h1, #Ticket h1, .productos-box h1{
+    font-size: 300%;
+    font-family: "Gloss And Bloom";
+    padding: 5px;
+    text-align: left;
+}
+#botonera, .productos-box #botonera{
+    display: flex;
+    justify-content: space-between;
+    max-width: 850px;
+    padding: 1% 1% 0 1%;
+}
+#botonera input, .productos-box #botonera input{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    height: 100%;
+    width: 200px;
+    background-color:#CCFFCC;
+    border-radius: 6px;
+}
+#facturas #facturas-box{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    max-height: 500px;
+    height: 30%;
+    min-width: 370px;
+    max-width: min-content;
+    display: block;   
+}
+#Pagar table tr, #Ticket table tr, #facturas table tr{
+    justify-content: center;
+    background-color: #FFCC99;
+}
+#Pagar table tr th, #Ticket table tr th, #facturas table tr th{
+    border: 1px solid black;
+}
+#Pagar table tr td, #Ticket table tr td, #facturas table tr td{
+    border: 1px solid black;
+}
+#Boton input, #Comprar input, #facturas table tr td #borrar{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    background-color:#CCFFCC;
+    border-radius: 6px;
+}
+#Boton input, #Comprar input{
+    width: 200px;
+}
+#Nombre, #Apellidos, #Correo{
+    padding: 0 0 0 1%;
+}
+.productos-box #Productos table{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    max-height: 450px;
+    height: 30%;
+    min-width: 300px;
+    max-width: min-content;
+    display: block;
+}
+.productos-box #Productos table tr{
+    justify-content: center;
+    background-color: #FFCC99;
+}
+.productos-box #Productos table th{
+    border: 1px solid black;
+}
+.productos-box #Productos table td{
+    border: 1px solid black;
+}
